@@ -1,0 +1,165 @@
+# Logs
+*.log
+*.out
+*.pid
+*.lock
+logs/
+
+# Temporary
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+.rnd
+tmp/
+cache/
+.cache/
+*-cache/
+*~
+*.old
+
+# History
+.*_history
+
+# Packages
+*.7z
+*.bz2
+*.bzip
+*.bzip2
+*.cab
+*.gz
+*.gzip
+*.jar
+*.lzma
+*.rar
+*.tar
+*.tgz*.patch
+*.diff
+*.tzst
+*.xar
+*.xz
+*.zip
+*.zst
+*.zstd
+*.iso
+
+# Package management formats
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.msi
+*.msm
+*.msp
+*.txz
+
+# Data files
+*.csv
+*.tsv
+*.dat
+*.db
+*.jsonl
+*.sqlite
+*.sql
+*.xml
+*.rdb
+
+# OS
+.DS_Store
+thumbs.db
+ethumbs.db
+Thumbs.db
+Icon?
+.Trash-*
+nohup.out
+$RECYCLE.BIN/
+.localized
+__MACOSX/
+snap/
+.local/share/
+.motd_shown
+
+# Development
+build/
+node_modules/
+vendor/
+.idea/
+coverage/
+*.patch
+*.diff
+
+# Eclipse project files
+.project
+.settings/
+.*.md.html
+.metadata
+*~.nib
+local.properties
+
+# Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.vscode/
+.vscode-server/
+.vscode-remote-containers/
+
+# Build Output
+eslint.xml
+*.tap
+
+# AWS
+.aws/credentials
+
+# Security files
+*.pem
+*.ppk
+secring.*
+.pki/
+
+# Terraform
+**/.terraform
+*.tfvars
+
+# NPM
+.npm/
+.node-gyp/
+.nvm/
+
+# Linux commands
+.wget-hsts
+.lesshst
+
+# Common subdirs
+src/
+
+# Other runtimes
+go/
+.config/go/telemetry/
+.rustup/
+.cargo/
+.platformio/
+
+# Apps
+.config/google-chrome/
+
+# OpenAI Codex
+.codex/
+
+# Claude Code
+.claude/
+.claude.json
+CLAUDE.local.md
+# .claude/
+
+# Gemini CLI
+gemini-debug.log
+.gemini-clipboard/
+# .gemini/
+
+# Ansible
+.ansible/
