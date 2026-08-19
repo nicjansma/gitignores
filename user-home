@@ -18,6 +18,7 @@ cache/
 *-cache/
 *~
 *.old
+state/
 
 # History
 .*_history
@@ -129,6 +130,9 @@ secring.*
 .npm/
 .node-gyp/
 .nvm/
+
+# Docker
+.docker/buildx/
 
 # Linux commands
 .wget-hsts

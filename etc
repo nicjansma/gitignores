@@ -1,0 +1,10 @@
+# Backup files
+*~
+*-
+
+# Locks
+.pwd.lock
+
+# Caches
+*.cache
+*.data

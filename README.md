@@ -17,6 +17,14 @@ A `.gitignore` for keeping your home directory (`~`) under version control while
 * **Security-sensitive files** — `*.pem`, `*.ppk`, `secring.*`, `*.tfvars`
 * **AI coding tools** — Claude Code, OpenAI Codex, and Gemini CLI local files and logs
 
+### [etc](etc)
+
+A minimal `.gitignore` for common temporary and lock files. It ignores:
+
+* **Backup files** — `*~`, `*-`
+* **Lock files** — `.pwd.lock`
+* **Cache files** — `*.cache`, `*.data`
+
 ### Usage
 
 Copy the template to where you want it, e.g.:
