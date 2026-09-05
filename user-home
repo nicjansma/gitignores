@@ -16,6 +16,7 @@ tmp/
 cache/
 .cache/
 *-cache/
+version-cache*
 *~
 *.old
 state/
@@ -92,6 +93,7 @@ vendor/
 coverage/
 *.patch
 *.diff
+.gradle/
 
 # Eclipse project files
 .project
@@ -122,6 +124,13 @@ eslint.xml
 *.ppk
 secring.*
 .pki/
+.kube/config
+kubeconfig
+.talos/config
+*credential*
+*token*
+*secret*
+.netrc
 
 # Terraform
 **/.terraform
