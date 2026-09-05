@@ -19,6 +19,7 @@ cache/
 *~
 *.old
 state/
+Crash Reports/
 
 # History
 .*_history
