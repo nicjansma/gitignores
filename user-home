@@ -131,6 +131,7 @@ kubeconfig
 *token*
 *secret*
 .netrc
+*.crl
 
 # Terraform
 **/.terraform
