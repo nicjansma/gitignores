@@ -132,6 +132,7 @@ kubeconfig
 *secret*
 .netrc
 *.crl
+.gnupg/
 
 # Terraform
 **/.terraform
@@ -141,9 +142,11 @@ kubeconfig
 .npm/
 .node-gyp/
 .nvm/
+.config/configstore/update-notifier-npm.json
 
 # Docker
 .docker/buildx/
+.docker/config.json
 
 # Linux commands
 .wget-hsts
