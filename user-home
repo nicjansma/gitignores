@@ -179,5 +179,9 @@ gemini-debug.log
 .gemini-clipboard/
 # .gemini/
 
+# Copilot
+.copilot/ide
+.copilot/logs
+
 # Ansible
 .ansible/
