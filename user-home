@@ -185,3 +185,7 @@ gemini-debug.log
 
 # Ansible
 .ansible/
+
+#
+# User-specified
+#
