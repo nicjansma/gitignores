@@ -21,6 +21,7 @@ version-cache*
 *.old
 state/
 Crash Reports/
+*-debug
 
 # History
 .*_history
@@ -71,29 +72,36 @@ Crash Reports/
 *.rdb
 
 # OS
-.DS_Store
-thumbs.db
-ethumbs.db
-Thumbs.db
-Icon?
-.Trash-*
-nohup.out
-$RECYCLE.BIN/
-.localized
 __MACOSX/
-snap/
+.CFUserTextEncoding
+.DS_Store
+.local/bin/
 .local/share/
+.localized
 .motd_shown
+.Trash-*
+$RECYCLE.BIN/
+ethumbs.db
+Icon?
+nohup.out
+snap/
+thumbs.db
+Thumbs.db
 
 # Development
+.android/
+.gradle/
+.idea/
+.particle/
+.m2/
+.titanium/
+.venvs/
+*.diff
+*.patch
 build/
+coverage/
 node_modules/
 vendor/
-.idea/
-coverage/
-*.patch
-*.diff
-.gradle/
 
 # Eclipse project files
 .project
@@ -111,6 +119,7 @@ local.properties
 .vscode/
 .vscode-server/
 .vscode-remote-containers/
+.vscode-shared/
 
 # Build Output
 eslint.xml
@@ -185,6 +194,26 @@ gemini-debug.log
 
 # Ansible
 .ansible/
+
+# Personal documents
+Applications/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+
+# Applications
+.continue/
+.dropbox/
+.electrum/
+.forever/
+.ghcp-appmod/
+.gk/
+.hermes/
+.swiftpm/
+.terraform.d/
 
 #
 # User-specified
