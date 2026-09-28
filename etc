@@ -8,3 +8,4 @@
 # Caches
 *.cache
 *.data
+.timestamp
